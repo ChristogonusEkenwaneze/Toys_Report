@@ -46,19 +46,16 @@ It includes information on total profit, revenue, unit sales, profit margins, pr
 
 ## Dashboard and Pivot Table
 
-![Pivot table](https://github.com/user-attachments/assets/9c3ace19-9a27-4ac8-b854-12d8595b9d79)
-
-![New](https://github.com/user-attachments/assets/6ac0eafb-4f5c-41f5-9c4c-88b31be7004a)
 
 ## Key Insights
 
-- Maven Coffee's revenue showed a steady increase from January to June, peaking at $166.49k in June, with a slight dip in February to $76.15k.
-  
-- Weekday sales outperformed weekends, with Monday generating the highest revenue ($101.68k), while Saturday and Sunday had the lowest ($96.89k and $98.33k).
-  
-- Coffee products were the best-selling items, totaling 89,250 orders and generating $269.95k in revenue, while packaged chocolate had the lowest sales (487 orders).
-  
-- Hell’s Kitchen led in revenue with $236.51k, followed by Astoria and Lower Manhattan.
+- Toys and electronics were the most profitable categories, generating $1.01M and $1M, respectively, with toys contributing 26.89% of total profit. Profits were highest at Downtown/Residential (toys) and Airport/Commercial (electronics) stores.
+
+- Q2 led with $1.19M in profit, surpassing Q4 by 94.17% and contributing 29.88% of overall profit.
+
+- Toy stores generated $132K in revenue from inventory, which sells out in less than a month.
+
+- Stockouts had no negative impact on sales, as stores with the most out-of-stock products saw higher sales.
 
 ## Recommendations
 
