@@ -3,8 +3,9 @@
 - [Brief Overview of the Dataset](#brief_overview_of_the_dataset)
 - [Tasks](#tasks)
 - [Tool](#tool)
-- [Processes](#processes)
-- [Key Inisghts](#key_insights)
+- [Data Cleaning](#data_cleaning)
+- [Data Modelling and DAX](#data_modelling_and_dax)
+- [Findings](#findings)
 - [Recommendations](#recommendations)
 
 ## Brief Overview of the Dataset
@@ -37,17 +38,23 @@ It includes information on total profit, revenue, unit sales, profit margins, pr
 
 ## Data Modelling and DAX
 
+![J](https://github.com/user-attachments/assets/db87c050-d3da-412f-a794-903bba49bbdf)
+
 - I connected to the independent source tables on Power BI and shaped and performed numerous transformations on each table in the Query Editor.
 
-- On the data view, I created table relationships and a relational model (Star and Snowflake database schema) with one-to-many relationship cardinality and a single filter direction flowing downstream.
+![I](https://github.com/user-attachments/assets/772566b5-61ef-45d3-a52d-1dfe6fd396a2)
 
+- On the data view, I created table relationships and a relational model (Star and Snowflake database schema) with one-to-many relationship cardinality and a single filter direction flowing downstream.
+  
 - Added calculated fields with Data Analysis Expression (DAX) and organized my dashboard in the report view with important KPIs, filters (drill-through and visual filters), and tables.
 
+![Screenshot 2024-09-03 095419](https://github.com/user-attachments/assets/474b73e4-84d0-4021-97e2-8132d7895fc4)
 
-## Dashboard and Pivot Table
+- Performance Note
 
+![Performance Note](https://github.com/user-attachments/assets/7182d281-cef6-4142-aa77-580b06a1c1e6)
 
-## Key Insights
+## Findings
 
 - Toys and electronics were the most profitable categories, generating $1.01M and $1M, respectively, with toys contributing 26.89% of total profit. Profits were highest at Downtown/Residential (toys) and Airport/Commercial (electronics) stores.
 
@@ -59,10 +66,6 @@ It includes information on total profit, revenue, unit sales, profit margins, pr
 
 ## Recommendations
 
-- Introduce weekday promotions for lower-selling products to capitalize on higher weekday traffic and encourage upselling.
-  
-- Launch weekend marketing campaigns or special discounts to boost sales on Saturdays and Sundays when revenue is lower.
-  
-- Expand high-performing coffee product offerings or introduce premium variations to maximize revenue from the most popular category.
-
+- Enhance inventory management by implementing predictive restocking to prevent shortages and maximize toy sales, especially at high-performing locations.
+- Leverage stockout trends by using limited-stock promotions to create urgency and boost demand while refining pricing and inventory strategies.
 
