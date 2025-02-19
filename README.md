@@ -5,6 +5,7 @@
 - [Tool](#tool)
 - [Data Cleaning](#data_cleaning)
 - [Data Modelling and DAX](#data_modelling_and_dax)
+- [Data Visualisation](#data_visualisation)
 - [Findings](#findings)
 - [Recommendations](#recommendations)
 
@@ -47,6 +48,8 @@ It includes information on total profit, revenue, unit sales, profit margins, pr
 - On the data view, I created table relationships and a relational model (Star and Snowflake database schema) with one-to-many relationship cardinality and a single filter direction flowing downstream.
   
 - Added calculated fields with Data Analysis Expression (DAX) and organized my dashboard in the report view with important KPIs, filters (drill-through and visual filters), and tables.
+
+## Data Visualisation
 
 ![Screenshot 2024-09-03 095419](https://github.com/user-attachments/assets/474b73e4-84d0-4021-97e2-8132d7895fc4)
 
